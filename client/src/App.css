@@ -1,0 +1,44 @@
+body, .App * {
+  background: #111;
+  color: #fff;
+}
+
+.App {
+  text-align: center;
+}
+
+.App ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 1.5rem;
+  width: 90%;
+}
+
+.App li {
+  border-bottom: 1px solid #ccc;
+}
+
+.App li:last-child {
+  border: none;
+}
+
+.App li:hover {
+  background: #222;
+}
+
+.App button {
+  margin: 0.25%;
+  padding: 0.25%;
+  border-radius: 10%;
+}
+
+#formPost input[type="text"], input[type="date"] {
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  padding: 0.25%;
+}
+
+#formPost button {
+  min-width: 10%;
+}
